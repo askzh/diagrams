@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T08:01:17.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="E63WQyJ9dmeXcrecSjPQ" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T08:52:21.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="txnpotUKB6imL_vuJ5lQ" version="14.0.5" type="github">
   <diagram id="ja0M6DlM9jikA0aGTMc_" name="Page-1">
     <mxGraphModel dx="1130" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-8" value="&lt;ul&gt;&lt;li&gt;调用resolve方法解析出当前文件的绝对路径&lt;/li&gt;&lt;li&gt;解析出inline和config中与当前文件匹配的loader，解析出loader的绝对路径，并runLoader做准备&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="375" y="339.5" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teUQ7k3h2MQdNr8YWL-4-11" target="teUQ7k3h2MQdNr8YWL-4-13">
+        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-11" target="teUQ7k3h2MQdNr8YWL-4-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-11" value="runLoaders" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-14" value="&lt;ul&gt;&lt;li&gt;文件解析为ast树，逐行解析出import等依赖&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
           <mxGeometry x="369" y="651" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teUQ7k3h2MQdNr8YWL-4-15" target="teUQ7k3h2MQdNr8YWL-4-11">
+        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-15" target="teUQ7k3h2MQdNr8YWL-4-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-15" value="创建入口文件的module" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -58,7 +58,7 @@
         <mxCell id="JtXOrtFPTUKA3Bt4CIVS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-1" target="teUQ7k3h2MQdNr8YWL-4-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="770" />
+              <mxPoint x="50" y="790" />
               <mxPoint x="50" y="372" />
             </Array>
           </mxGeometry>
