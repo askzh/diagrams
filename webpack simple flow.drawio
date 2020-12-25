@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T07:57:59.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Dj2_-2WBPsbPk1zGO7sP" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T08:01:17.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="E63WQyJ9dmeXcrecSjPQ" version="14.0.5" type="github">
   <diagram id="ja0M6DlM9jikA0aGTMc_" name="Page-1">
-    <mxGraphModel dx="890" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,82 +17,78 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-4" value="compiler.compile()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="280" width="170" height="40" as="geometry" />
+          <mxGeometry x="130" y="245" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-6" value="&lt;ul&gt;&lt;li&gt;创建compilation对象&lt;/li&gt;&lt;li&gt;调用SingleEntryPlugin开始编译入口文件&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="375" y="267.5" width="340" height="65" as="geometry" />
+          <mxGeometry x="375" y="232.5" width="340" height="65" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-7" target="teUQ7k3h2MQdNr8YWL-4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-7" value="resolve" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="410" width="170" height="40" as="geometry" />
+          <mxGeometry x="130" y="352" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-8" value="&lt;ul&gt;&lt;li&gt;调用resolve方法解析出当前文件的绝对路径&lt;/li&gt;&lt;li&gt;解析出inline和config中与当前文件匹配的loader，解析出loader的绝对路径，并runLoader做准备&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="375" y="397.5" width="340" height="65" as="geometry" />
+          <mxGeometry x="375" y="339.5" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="isRPyWJvQ6wW6f-tCMpE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="214" y="770" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teUQ7k3h2MQdNr8YWL-4-11" target="teUQ7k3h2MQdNr8YWL-4-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-11" value="runLoaders" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="129" y="642.5" width="170" height="40" as="geometry" />
+          <mxGeometry x="130" y="552.5" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-12" value="&lt;ul&gt;&lt;li&gt;针对当前文件逐个执行loader&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="369" y="630" width="340" height="65" as="geometry" />
+          <mxGeometry x="369" y="540" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teUQ7k3h2MQdNr8YWL-4-13" target="JtXOrtFPTUKA3Bt4CIVS-1">
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-13" target="JtXOrtFPTUKA3Bt4CIVS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-13" value="parse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="772.5" width="170" height="40" as="geometry" />
+          <mxGeometry x="130" y="663.5" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-14" value="&lt;ul&gt;&lt;li&gt;文件解析为ast树，逐行解析出import等依赖&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="369" y="760" width="340" height="65" as="geometry" />
+          <mxGeometry x="369" y="651" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="teUQ7k3h2MQdNr8YWL-4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="teUQ7k3h2MQdNr8YWL-4-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="215" y="640" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="h6P9YHzoI2F_Q_FRXoKY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teUQ7k3h2MQdNr8YWL-4-15" target="teUQ7k3h2MQdNr8YWL-4-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="teUQ7k3h2MQdNr8YWL-4-15" value="创建入口文件的module" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="520" width="170" height="40" as="geometry" />
+          <mxGeometry x="130" y="450" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-1" target="teUQ7k3h2MQdNr8YWL-4-7">
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-1" target="teUQ7k3h2MQdNr8YWL-4-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="910" />
-              <mxPoint x="50" y="430" />
+              <mxPoint x="50" y="770" />
+              <mxPoint x="50" y="372" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-1" target="JtXOrtFPTUKA3Bt4CIVS-4">
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-1" target="JtXOrtFPTUKA3Bt4CIVS-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-1" value="循环处理依赖" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="890" width="170" height="40" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-1" value="循环处理依赖" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="774" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-4" target="JtXOrtFPTUKA3Bt4CIVS-8">
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-4" target="JtXOrtFPTUKA3Bt4CIVS-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-4" value="生成chunk" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1010" width="170" height="40" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-4" value="生成chunk" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="876.5" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-5" value="&lt;ul&gt;&lt;li&gt;所有module已经创建完成&lt;/li&gt;&lt;li&gt;根据module之间的关系生成chunk&lt;/li&gt;&lt;li&gt;优化chunk&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="370" y="997.5" width="340" height="65" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-5" value="&lt;ul&gt;&lt;li&gt;所有module已经创建完成&lt;/li&gt;&lt;li&gt;根据module之间的关系生成chunk&lt;/li&gt;&lt;li&gt;优化chunk&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="370" y="864" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-8" target="JtXOrtFPTUKA3Bt4CIVS-11">
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JtXOrtFPTUKA3Bt4CIVS-8" target="JtXOrtFPTUKA3Bt4CIVS-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-8" value="生成文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1120" width="170" height="40" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-8" value="生成文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="986.5" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-10" value="&lt;ul&gt;&lt;li&gt;根据模板生成文件&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1107.5" width="340" height="65" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-10" value="&lt;ul&gt;&lt;li&gt;根据模板生成文件&lt;/li&gt;&lt;/ul&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="370" y="974" width="340" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-11" value="写文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1220" width="170" height="40" as="geometry" />
+        <mxCell id="JtXOrtFPTUKA3Bt4CIVS-11" value="写文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1086.5" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
